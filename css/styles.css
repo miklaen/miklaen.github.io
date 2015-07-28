@@ -3,13 +3,12 @@ body, html {
     height: 100%;
     background: url(../img/background.jpg) no-repeat center center;
     background-size: cover;
-    background-color: #EEEEEE;
-    
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
 }
 
 .intro-header {
@@ -22,18 +21,16 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-section {
     height: 100%;
     text-align: center;
+ 
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .cv-section {
     height: 100%;
     padding-top: 50px;  
+    color: #f2f2f2;
     text-align: center; 
-    background: #EEEEEE;
-}
-
-.cv-section h1, .up {
-    
+    background: #333;
 }
 
 .cv-container {
@@ -41,8 +38,7 @@ body, h1, h2, h3, h4, h5, h6 {
     text-align: left;
 }
 
-.intro-message {
-    
+.intro-message {  
     padding-top: 20%;
     padding-bottom: 20%;
 }
@@ -94,7 +90,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
     color: #F2F2F2;
 
     /* CSS Transition */
@@ -107,6 +103,5 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .up {
     margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: center;
+    bottom: 50px;
 }
